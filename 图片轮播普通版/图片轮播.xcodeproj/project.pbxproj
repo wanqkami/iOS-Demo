@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ACB6FCD1B418FD700A94EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACB6FCC1B418FD700A94EFD /* Foundation.framework */; };
+		2ACB6FCF1B418FD700A94EFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACB6FCE1B418FD700A94EFD /* CoreGraphics.framework */; };
+		2ACB6FD11B418FD700A94EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACB6FD01B418FD700A94EFD /* UIKit.framework */; };
+		2ACB6FD71B418FD700A94EFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB6FD51B418FD700A94EFD /* InfoPlist.strings */; };
+		2ACB6FD91B418FD700A94EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB6FD81B418FD700A94EFD /* main.m */; };
+		2ACB6FDD1B418FD700A94EFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB6FDC1B418FD700A94EFD /* AppDelegate.m */; };
+		2ACB6FE01B418FD700A94EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB6FDE1B418FD700A94EFD /* Main.storyboard */; };
+		2ACB6FE31B418FD700A94EFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB6FE21B418FD700A94EFD /* ViewController.m */; };
+		2ACB6FE51B418FD700A94EFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB6FE41B418FD700A94EFD /* Images.xcassets */; };
+		2ACB6FEC1B418FD700A94EFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACB6FEB1B418FD700A94EFD /* XCTest.framework */; };
+		2ACB6FED1B418FD700A94EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACB6FCC1B418FD700A94EFD /* Foundation.framework */; };
+		2ACB6FEE1B418FD700A94EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACB6FD01B418FD700A94EFD /* UIKit.framework */; };
+		2ACB6FF61B418FD700A94EFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ACB6FF41B418FD700A94EFD /* InfoPlist.strings */; };
+		2ACB6FF81B418FD700A94EFD /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ACB6FF71B418FD700A94EFD /* ____Tests.m */; };
+		8590BDB81B7AF250009F2781 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDAE1B7AF250009F2781 /* 1.jpg */; };
+		8590BDB91B7AF250009F2781 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDAF1B7AF250009F2781 /* 2.jpg */; };
+		8590BDBA1B7AF250009F2781 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDB01B7AF250009F2781 /* 3.jpg */; };
+		8590BDBB1B7AF250009F2781 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDB11B7AF250009F2781 /* 4.jpg */; };
+		8590BDBC1B7AF250009F2781 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDB21B7AF250009F2781 /* 5.jpg */; };
+		8590BDBD1B7AF250009F2781 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDB31B7AF250009F2781 /* 6.jpg */; };
+		8590BDBE1B7AF250009F2781 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDB41B7AF250009F2781 /* 7.jpg */; };
+		8590BDBF1B7AF250009F2781 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDB51B7AF250009F2781 /* 8.jpg */; };
+		8590BDC01B7AF250009F2781 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDB61B7AF250009F2781 /* 9.jpg */; };
+		8590BDC11B7AF250009F2781 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8590BDB71B7AF250009F2781 /* 10.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ACB6FEF1B418FD700A94EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ACB6FC11B418FD700A94EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ACB6FC81B418FD700A94EFD;
+			remoteInfo = "图片轮播";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ACB6FC91B418FD700A94EFD /* 图片轮播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片轮播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACB6FCC1B418FD700A94EFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2ACB6FCE1B418FD700A94EFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2ACB6FD01B418FD700A94EFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2ACB6FD41B418FD700A94EFD /* 图片轮播-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "图片轮播-Info.plist"; sourceTree = "<group>"; };
+		2ACB6FD61B418FD700A94EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2ACB6FD81B418FD700A94EFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ACB6FDA1B418FD700A94EFD /* 图片轮播-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "图片轮播-Prefix.pch"; sourceTree = "<group>"; };
+		2ACB6FDB1B418FD700A94EFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2ACB6FDC1B418FD700A94EFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2ACB6FDF1B418FD700A94EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ACB6FE11B418FD700A94EFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2ACB6FE21B418FD700A94EFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2ACB6FE41B418FD700A94EFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2ACB6FEA1B418FD700A94EFD /* 图片轮播Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图片轮播Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACB6FEB1B418FD700A94EFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2ACB6FF31B418FD700A94EFD /* 图片轮播Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "图片轮播Tests-Info.plist"; sourceTree = "<group>"; };
+		2ACB6FF51B418FD700A94EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2ACB6FF71B418FD700A94EFD /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		8590BDAE1B7AF250009F2781 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		8590BDAF1B7AF250009F2781 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		8590BDB01B7AF250009F2781 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		8590BDB11B7AF250009F2781 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		8590BDB21B7AF250009F2781 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		8590BDB31B7AF250009F2781 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		8590BDB41B7AF250009F2781 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		8590BDB51B7AF250009F2781 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		8590BDB61B7AF250009F2781 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		8590BDB71B7AF250009F2781 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ACB6FC61B418FD700A94EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACB6FCF1B418FD700A94EFD /* CoreGraphics.framework in Frameworks */,
+				2ACB6FD11B418FD700A94EFD /* UIKit.framework in Frameworks */,
+				2ACB6FCD1B418FD700A94EFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACB6FE71B418FD700A94EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACB6FEC1B418FD700A94EFD /* XCTest.framework in Frameworks */,
+				2ACB6FEE1B418FD700A94EFD /* UIKit.framework in Frameworks */,
+				2ACB6FED1B418FD700A94EFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ACB6FC01B418FD700A94EFD = {
+			isa = PBXGroup;
+			children = (
+				2ACB6FD21B418FD700A94EFD /* 图片轮播 */,
+				2ACB6FF11B418FD700A94EFD /* 图片轮播Tests */,
+				2ACB6FCB1B418FD700A94EFD /* Frameworks */,
+				2ACB6FCA1B418FD700A94EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ACB6FCA1B418FD700A94EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ACB6FC91B418FD700A94EFD /* 图片轮播.app */,
+				2ACB6FEA1B418FD700A94EFD /* 图片轮播Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ACB6FCB1B418FD700A94EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ACB6FCC1B418FD700A94EFD /* Foundation.framework */,
+				2ACB6FCE1B418FD700A94EFD /* CoreGraphics.framework */,
+				2ACB6FD01B418FD700A94EFD /* UIKit.framework */,
+				2ACB6FEB1B418FD700A94EFD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ACB6FD21B418FD700A94EFD /* 图片轮播 */ = {
+			isa = PBXGroup;
+			children = (
+				8590BDAE1B7AF250009F2781 /* 1.jpg */,
+				8590BDAF1B7AF250009F2781 /* 2.jpg */,
+				8590BDB01B7AF250009F2781 /* 3.jpg */,
+				8590BDB11B7AF250009F2781 /* 4.jpg */,
+				8590BDB21B7AF250009F2781 /* 5.jpg */,
+				8590BDB31B7AF250009F2781 /* 6.jpg */,
+				8590BDB41B7AF250009F2781 /* 7.jpg */,
+				8590BDB51B7AF250009F2781 /* 8.jpg */,
+				8590BDB61B7AF250009F2781 /* 9.jpg */,
+				8590BDB71B7AF250009F2781 /* 10.jpg */,
+				2ACB6FDB1B418FD700A94EFD /* AppDelegate.h */,
+				2ACB6FDC1B418FD700A94EFD /* AppDelegate.m */,
+				2ACB6FDE1B418FD700A94EFD /* Main.storyboard */,
+				2ACB6FE11B418FD700A94EFD /* ViewController.h */,
+				2ACB6FE21B418FD700A94EFD /* ViewController.m */,
+				2ACB6FE41B418FD700A94EFD /* Images.xcassets */,
+				2ACB6FD31B418FD700A94EFD /* Supporting Files */,
+			);
+			path = "图片轮播";
+			sourceTree = "<group>";
+		};
+		2ACB6FD31B418FD700A94EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ACB6FD41B418FD700A94EFD /* 图片轮播-Info.plist */,
+				2ACB6FD51B418FD700A94EFD /* InfoPlist.strings */,
+				2ACB6FD81B418FD700A94EFD /* main.m */,
+				2ACB6FDA1B418FD700A94EFD /* 图片轮播-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ACB6FF11B418FD700A94EFD /* 图片轮播Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2ACB6FF71B418FD700A94EFD /* ____Tests.m */,
+				2ACB6FF21B418FD700A94EFD /* Supporting Files */,
+			);
+			path = "图片轮播Tests";
+			sourceTree = "<group>";
+		};
+		2ACB6FF21B418FD700A94EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ACB6FF31B418FD700A94EFD /* 图片轮播Tests-Info.plist */,
+				2ACB6FF41B418FD700A94EFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ACB6FC81B418FD700A94EFD /* 图片轮播 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ACB6FFB1B418FD700A94EFD /* Build configuration list for PBXNativeTarget "图片轮播" */;
+			buildPhases = (
+				2ACB6FC51B418FD700A94EFD /* Sources */,
+				2ACB6FC61B418FD700A94EFD /* Frameworks */,
+				2ACB6FC71B418FD700A94EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图片轮播";
+			productName = "图片轮播";
+			productReference = 2ACB6FC91B418FD700A94EFD /* 图片轮播.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ACB6FE91B418FD700A94EFD /* 图片轮播Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ACB6FFE1B418FD700A94EFD /* Build configuration list for PBXNativeTarget "图片轮播Tests" */;
+			buildPhases = (
+				2ACB6FE61B418FD700A94EFD /* Sources */,
+				2ACB6FE71B418FD700A94EFD /* Frameworks */,
+				2ACB6FE81B418FD700A94EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ACB6FF01B418FD700A94EFD /* PBXTargetDependency */,
+			);
+			name = "图片轮播Tests";
+			productName = "图片轮播Tests";
+			productReference = 2ACB6FEA1B418FD700A94EFD /* 图片轮播Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ACB6FC11B418FD700A94EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "万齐鹣";
+				TargetAttributes = {
+					2ACB6FE91B418FD700A94EFD = {
+						TestTargetID = 2ACB6FC81B418FD700A94EFD;
+					};
+				};
+			};
+			buildConfigurationList = 2ACB6FC41B418FD700A94EFD /* Build configuration list for PBXProject "图片轮播" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ACB6FC01B418FD700A94EFD;
+			productRefGroup = 2ACB6FCA1B418FD700A94EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ACB6FC81B418FD700A94EFD /* 图片轮播 */,
+				2ACB6FE91B418FD700A94EFD /* 图片轮播Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ACB6FC71B418FD700A94EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8590BDC11B7AF250009F2781 /* 10.jpg in Resources */,
+				8590BDBF1B7AF250009F2781 /* 8.jpg in Resources */,
+				8590BDBD1B7AF250009F2781 /* 6.jpg in Resources */,
+				2ACB6FE51B418FD700A94EFD /* Images.xcassets in Resources */,
+				8590BDBC1B7AF250009F2781 /* 5.jpg in Resources */,
+				8590BDBB1B7AF250009F2781 /* 4.jpg in Resources */,
+				8590BDB81B7AF250009F2781 /* 1.jpg in Resources */,
+				8590BDB91B7AF250009F2781 /* 2.jpg in Resources */,
+				8590BDBA1B7AF250009F2781 /* 3.jpg in Resources */,
+				8590BDBE1B7AF250009F2781 /* 7.jpg in Resources */,
+				8590BDC01B7AF250009F2781 /* 9.jpg in Resources */,
+				2ACB6FD71B418FD700A94EFD /* InfoPlist.strings in Resources */,
+				2ACB6FE01B418FD700A94EFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACB6FE81B418FD700A94EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACB6FF61B418FD700A94EFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ACB6FC51B418FD700A94EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACB6FE31B418FD700A94EFD /* ViewController.m in Sources */,
+				2ACB6FDD1B418FD700A94EFD /* AppDelegate.m in Sources */,
+				2ACB6FD91B418FD700A94EFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ACB6FE61B418FD700A94EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACB6FF81B418FD700A94EFD /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ACB6FF01B418FD700A94EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ACB6FC81B418FD700A94EFD /* 图片轮播 */;
+			targetProxy = 2ACB6FEF1B418FD700A94EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ACB6FD51B418FD700A94EFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ACB6FD61B418FD700A94EFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2ACB6FDE1B418FD700A94EFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ACB6FDF1B418FD700A94EFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ACB6FF41B418FD700A94EFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ACB6FF51B418FD700A94EFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ACB6FF91B418FD700A94EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2ACB6FFA1B418FD700A94EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ACB6FFC1B418FD700A94EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "图片轮播/图片轮播-Prefix.pch";
+				INFOPLIST_FILE = "图片轮播/图片轮播-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2ACB6FFD1B418FD700A94EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "图片轮播/图片轮播-Prefix.pch";
+				INFOPLIST_FILE = "图片轮播/图片轮播-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2ACB6FFF1B418FD700A94EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/图片轮播.app/图片轮播";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "图片轮播/图片轮播-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "图片轮播Tests/图片轮播Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2ACB70001B418FD700A94EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/图片轮播.app/图片轮播";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "图片轮播/图片轮播-Prefix.pch";
+				INFOPLIST_FILE = "图片轮播Tests/图片轮播Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ACB6FC41B418FD700A94EFD /* Build configuration list for PBXProject "图片轮播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACB6FF91B418FD700A94EFD /* Debug */,
+				2ACB6FFA1B418FD700A94EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ACB6FFB1B418FD700A94EFD /* Build configuration list for PBXNativeTarget "图片轮播" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACB6FFC1B418FD700A94EFD /* Debug */,
+				2ACB6FFD1B418FD700A94EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ACB6FFE1B418FD700A94EFD /* Build configuration list for PBXNativeTarget "图片轮播Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ACB6FFF1B418FD700A94EFD /* Debug */,
+				2ACB70001B418FD700A94EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ACB6FC11B418FD700A94EFD /* Project object */;
+}
